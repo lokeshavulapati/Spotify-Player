@@ -1,0 +1,81 @@
+body{
+    font-family: arial;
+    color: gray;
+    background-color: #040404;
+    margin: unset;
+    padding-bottom: 2%;
+}
+.banner{
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 18em;
+}
+
+
+.left-img{
+    margin-left: 2.3em;
+    margin-top: 3em;
+    width: 12em;
+    display: inline-block;
+    margin-right: 1em;
+}
+.left-banner{
+
+    margin-top: 1em;
+    float: left;
+    margin-left: 3em;
+    
+}
+.heading{
+    display: inline-block;
+}
+.main{
+    margin: auto;
+    width: 80%;
+}
+table{
+    text-align: left;
+}
+th{
+    padding: 2em;
+    padding-left: 1.2em;
+    font-size: large;
+}
+.song-number{
+    width: 20px;
+    border-bottom: 2px solid gray;
+}
+.song-title{
+    width: 550px;
+    border-bottom: 2px solid gray;
+}
+.song-artist{
+    width: 250px;
+    border-bottom: 2px solid gray;
+}
+.song-duration{
+    width: 100px;
+    border-bottom: 2px solid gray;
+}
+
+td {
+  padding: 1.5em 1em;
+ 
+}
+
+
+ tbody tr:hover{
+    color:rgb(213, 160, 90);
+   /* background-color: #1a1a1a; */
+    cursor: pointer; ;
+}
+.controls img{
+    margin-top: 1em;
+    width: 3.5em;
+}
+.highlight{
+    color: white;
+   font-weight: bold;
+    border-left: 4px solid #1db954;
+}

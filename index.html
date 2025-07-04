@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify Music Player</title>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="left-banner">
+            <img class="left-img" src="images/ban.jpg" alt="left-banner-img">
+           <div class="heading"> 
+            <h1>Avunu Kadha</h1>
+            <p>Songs that make you feel,think, and quietly ask!</p></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="controls" onclick="playaudio()" id="play-pause"><img class="play-button" src="images/play-button.svg" alt="play-image"></div>
+        <audio id="song" ></audio>
+
+        
+        <table>
+            <thead><tr>
+                <th class="song-number">S.No</th>
+                <th class="song-title">Title</th>
+                <th class="song-artist">Artist</th>
+                <th class="song-duration">Duration</th>
+                    </tr>
+                
+            </thead>
+            <tbody>
+            <tr id="song1" onclick="playall(1)">
+                <td>1</td>
+                <td>Nuvvunte Naa Jathaga</td>
+                <td>Sid Sriram</td>
+                <td>5:50</td>
+            </tr>
+            <tr id="song2" onclick="playall(2)">
+                <td>2</td>
+                <td>O Priya Priya</td>
+                <td>SPB</td>
+                <td>5:46</td>
+            </tr>
+            <tr id="song3" onclick="playall(3)">
+                <td>3</td>
+                <td>Anitha O Anitha</td>
+                <td>Guniparthi Nagaraj</td>
+                <td>5:03</td>
+            </tr>
+            <tr id="song4" onclick="playall(4)">
+                <td>4</td>
+                <td>Arery Manassa</td>
+                <td>Sid Sriram</td>
+                <td>5:00</td>
+            </tr>
+            <tr id="song5" onclick="playall(5)">
+                <td>5</td>
+                <td>Avunanavaa</td>
+                <td>Sid Sriram</td>
+                <td>4:54</td>
+            </tr>
+            <tr id="song6" onclick="playall(6)">
+                <td>6</td>
+                <td>Kadalalle</td>
+                <td>Justin Prabhakaran</td>
+                <td>4:21</td>
+            </tr>
+            <tr id="song7" onclick="playall(7)">
+                <td>7</td>
+                <td>Kannula Basalu</td>
+                <td>Karthik</td>
+                <td>5:51</td>
+            </tr>
+            <tr id="song8" onclick="playall(8)">
+                <td>8</td>
+                <td>Manasa Manasa</td>
+                <td>Sid Sriram</td>
+                <td>4:13</td>
+            </tr>
+            <tr id="song9" onclick="playall(9)">
+                <td>9</td>
+                <td>Manohara</td>
+                <td>DRGM</td>
+                <td>4:54</td>
+            </tr>
+            <tr id="song10" onclick="playall(10)">
+                <td>10</td>
+                <td>Ninnu Chudaganne</td>
+                <td>DSP</td>
+                <td>5:33</td>
+            </tr>
+            <tr id="song11" onclick="playall(11)">
+                <td>11</td>
+                <td>Sada Nannu</td>
+                <td>Charulatha Mani</td>
+                <td>3:11</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
